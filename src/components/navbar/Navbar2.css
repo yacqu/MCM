@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Titillium Web", sans-serif;
+}
+
+:root {
+	--mainColor: #29335c;
+	--mainColorLight: #5767aa;
+	--secondaryColor: #db2b39;
+	--textColor: #eee;
+}
+/**/
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	height: 80px;
+	padding: 0 2rem;
+	background-color: var(--mainColor);
+	color: var(--textColor);
+}
+
+.navbar-item {
+	margin: 10px 50px 20px;
+	color: var(--textColor);
+	text-decoration: none;
+    font-size: 1.5em;
+}
+
+.navbar-item:hover {
+	color: var(--secondaryColor);
+}
+
+.nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+}
+
+.header , .nav-bar {
+	display: flex;
+	align-items: center;
+}
+
+.logo-container {
+    padding: 10px 50px 20px;
+    font-size: 2em;
+}
+
+.logo-img {
+    /*  Play with this till you can get a good fit that shows everything */
+    width: 100px;
+    height: 50px;
+}
+
+.donate-a-tag {
+    /*  Play with this till you can get a good fit on the right side of the page */
+    padding: 10px 0px 10px 60px;
+	color: var(--textColor);
+	text-decoration: none;
+    font-size: 1.5em;
+}
+
+.item-logo {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+.item-logo:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+@media only screen and (max-width: 1024px) {
+	.nav-btn {
+		visibility: visible;
+		opacity: 1;
+	}
+
+	.navbar {
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+		background-color: var(--mainColor);
+		transition: 1s;
+		transform: translateY(-100vh);
+	}
+
+	.responsive_nav {
+		transform: none;
+	}
+
+	.nav-close-btn {
+		position: absolute;
+        outline: white;
+		top: 2rem;
+		right: 2rem;
+	}
+
+	.navbar-item {
+		font-size: 1.5rem;
+        align-items: stretch;
+	}
+}

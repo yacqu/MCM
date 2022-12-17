@@ -1,0 +1,11 @@
+.services-page {
+    justify-content: center;
+}
+
+.slideshow-container {
+    display: flex;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+}
+

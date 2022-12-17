@@ -1,0 +1,109 @@
+.main-content {
+    padding: 0%;
+}
+
+.top-heading {
+    padding: 10px 0px 10px;
+}
+
+.top-heading-container {
+    background-image: url('img-masjid-new-1.jpg') center center/cover no-repeat ;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+}
+
+.top-heading-container-title {
+    color: #fff;
+    font-size: 100px;
+    margin-top: -100px;
+}
+
+.top-heading-breadcrumb-wrapper {
+    padding: 10px 0px 10px;
+}
+
+.breadcrumb-container {
+    display: flex;
+}
+
+.breadcrumbs {
+    list-style-type: none;
+    display: flex;
+    padding: 10%;
+    align-items: flex-start;
+}
+
+hr {
+    margin: 20px 0;
+    border: 1px solid black;
+}
+
+.breadcrumbs-list {
+    float: left;
+    padding: 5px 10px 5px;
+}
+
+.breadcrumbs-list::after {
+    padding: 5px 10px 5px;
+    content: "»";
+    color: gray;
+}
+
+.breadcrumbs-list-item {
+    text-align: center;
+}
+
+/* used https://masjidds.org/tanwir-intensive/ */
+.site-content-container {
+    padding:0%
+}
+
+.content-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10%;
+}
+
+.row-main {
+    padding: 10%;
+
+}
+
+.row-main-article {
+    padding: 10%;
+}
+
+.sidebar {
+    position: sticky;
+    overflow: visible; 
+    box-sizing: border-box; 
+    min-height: 1px;
+}
+
+.row-main, 
+.sidebar {
+    border: 3px solid black;
+    padding: 15px;
+}
+
+.sidebar-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    align-items: flex-start;
+}
+
+.sidebar-list-item {
+    padding: 5%;
+}
+
+.sidebar-list-item-link {
+    padding: 0%;
+}
