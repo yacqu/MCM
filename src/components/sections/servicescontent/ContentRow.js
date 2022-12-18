@@ -9,7 +9,7 @@ function ContentRow() {
             <article className='row-main-article'>
                 <div className='row-main-top-panel'>
                     {/* This is the title */}
-                    <h1>Announcements: Quran Classes Start August January 1st<hr></hr></h1>
+                    <h1>Announcements: Quran Classes Start August January 1st</h1>
                 </div>
                 <div >
                     {/* This bottom panel of article*/}
@@ -142,7 +142,7 @@ function ContentRow() {
         {/* This separates the main and sidebar on the content-row */}
         <div className='sidebar-wrapper'>
             <div className='sidebar'>
-            <h1 className='sidebar-title'>Pages</h1>
+            <h1 className='sidebar-title'>Pages<hr></hr></h1>
                 <ul className='sidebar-list'>
                     <li className='sidebar-list-item'>
                         <Link style={{textDecoration: 'none'}} to='/about'>ABOUT</Link>

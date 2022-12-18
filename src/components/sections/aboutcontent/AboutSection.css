@@ -1,0 +1,102 @@
+.about-page-container {
+    padding: 0%;
+}
+
+.about-landing-wrapper {
+    display: flex;
+}
+
+.about-landing-container {
+    background-image: url('../../../../public/images/img-community-services.jpg');
+    background-size: contain;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+}
+
+.about-heading-container-title {
+    color: ghostwhite;
+    font-weight: 100;
+    font-size: 100px;
+    margin-bottom: -300px;
+}
+
+.about-content-wrapper {
+    padding: 0%;
+}
+
+.about-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 350px 350px 350px;
+}
+
+.about-content-title {
+    padding: 10px 10px 10px;
+    text-align: left;
+    background-color: rgb(223, 223, 208);
+    
+}
+
+.about-article-wrapper {
+    padding: 20%;
+    background-color: rgb(252, 252, 236);
+    padding: 10px 10px 10px;
+}
+
+.about-article-container {
+    display: flex;
+
+}
+
+.about-article {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.article-intro {
+    padding:0%;
+}
+
+.article-title {
+    background-color: rgb(236, 236, 214);
+    padding: 10px 10px 10px;
+}
+
+.article-misson {
+    display: flex;
+    padding: 10px 0px 10px;
+    text-align: left;
+    align-items: left;
+}
+
+.article-mission-title {
+    text-align: left;
+    padding: 10px 10px 10px;    
+    background-color: rgb(240, 240, 218);
+}
+
+.mission-text {
+    padding: 10px 350px 30px 200px;
+}
+
+.article-misson-p {
+    text-align: left;
+    padding: 20px 0px 10px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.goals-section-padding {
+    padding: 0%;
+}
+
+.goals-section-row {
+    
+}

@@ -1,7 +1,5 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/navbar/Navbar';
-import Navbar2 from './components/navbar/Navbar2';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/pages/Home';
 import Services from './components/pages/Services';
@@ -11,13 +9,18 @@ import MasjidConstruction from './components/pages/MasjidConstruction';
 import QuranProgram from './components/pages/QuranProgram';
 import Footer from './components/footer/Footer';
 
+import Navbar from './components/navbar/Navbar';
+import Navbar2 from './components/navbar/Navbar2';
+import Navbar3 from './components/navbar/Navbar3'; 
+import Navbar4 from './components/navbar/Navbar4.tsx';
+
 
 
 const App = () => {
   return (
     <Router>
     {/* establishes the navbar */}
-      <Navbar2 />
+      <Navbar4 />
     <Routes>
       {/* establishes where each url leads to  */}
       <Route path='/' element={<Home/>}  />
