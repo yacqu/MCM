@@ -9,6 +9,7 @@ import About from './components/pages/About';
 import Donate from './components/pages/Donate';
 import MasjidConstruction from './components/pages/MasjidConstruction';
 import QuranProgram from './components/pages/QuranProgram';
+import Footer from './components/footer/Footer';
 
 
 
@@ -26,6 +27,7 @@ const App = () => {
       <Route path='/masjid-construction' element={<MasjidConstruction/>}  />
       <Route path='/quran-program' element={<QuranProgram/>}  />
     </Routes>
+    <Footer />
     </Router>
 
   );
