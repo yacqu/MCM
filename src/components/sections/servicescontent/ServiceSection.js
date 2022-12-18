@@ -9,7 +9,7 @@ function ServiceSection() {
       <div className='top-heading'>
         <div className='top-heading-container'>
           <h1 className='top-heading-container-title'>
-            Enter Title Here
+             Services at MCM Phoenix 
           </h1>
         </div>
         {/* The next portion of the services page goes here */}

@@ -7,14 +7,7 @@ import '../sections/TourSection.css'
 function Services() {
   return (
     <>
-    <div className="services-page">
-      <h1 className="services">Services</h1>
-      <div className="slideshow-container">
-        <TourSection />        
-      </div>
       <ServiceSection />
-    </div>
-      
     </>
   )
 }

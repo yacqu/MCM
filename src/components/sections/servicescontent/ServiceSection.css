@@ -7,8 +7,9 @@
 }
 
 .top-heading-container {
-    background-image: url('img-masjid-new-1.jpg') center center/cover no-repeat ;
-    height: 100vh;
+    background-image: url('../../../../public/images/img-donate.jpg');
+    background-size: contain;
+    height: 50vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -19,13 +20,14 @@
 }
 
 .top-heading-container-title {
-    color: #fff;
+    color: ghostwhite;
+    font-weight: 100;
     font-size: 100px;
-    margin-top: -100px;
+    margin-bottom: -300px;
 }
 
 .top-heading-breadcrumb-wrapper {
-    padding: 10px 0px 10px;
+    padding: 5px 0px 5px;
 }
 
 .breadcrumb-container {
@@ -35,7 +37,7 @@
 .breadcrumbs {
     list-style-type: none;
     display: flex;
-    padding: 10%;
+    padding: 2%;
     align-items: flex-start;
 }
 
@@ -61,35 +63,52 @@ hr {
 
 /* used https://masjidds.org/tanwir-intensive/ */
 .site-content-container {
-    padding:0%
+    padding: 5px 250px 5px;
 }
 
 .content-row {
     display: flex;
     justify-content: space-between;
-    padding: 10%;
+
 }
 
-.row-main {
-    padding: 10%;
 
+.row-main {
+    padding: 2%;
+    flex: 1;
 }
 
 .row-main-article {
-    padding: 10%;
+    padding: 2%;
+}
+
+.row-main-top-panel {
+    padding: 10px 5px 50px;
+    letter-spacing: 1px;
+    font-size: x-large;
+
+}
+.row-main-bottom-panel {
+    padding: 0%;
+}
+
+.sidebar-wrapper {
+    padding: 200px 0px 10px;
 }
 
 .sidebar {
     position: sticky;
     overflow: visible; 
     box-sizing: border-box; 
-    min-height: 1px;
+    min-height: 10px;
+    width: fit-content;
+    border: 1px solid black;
 }
 
 .row-main, 
 .sidebar {
-    border: 3px solid black;
-    padding: 15px;
+    
+    padding: 2px;
 }
 
 .sidebar-list {
@@ -101,9 +120,70 @@ hr {
 }
 
 .sidebar-list-item {
-    padding: 5%;
+    padding: 5px 1px 10px;
+    width: 250px;
+    font-size: large ;
+    letter-spacing: 1px;
 }
 
 .sidebar-list-item-link {
     padding: 0%;
+
+}
+
+.sidebar-title {
+    font-size: x-large;
+}
+
+.article-content-wrapper {
+    padding: 2%;
+}
+.article-content-lists {
+    padding: 1%;
+    display: flex;
+    justify-content: left;
+}
+
+
+.article-content-li {
+    
+    padding: 5px 5px 10px;
+    margin-left: 0%;
+    
+    list-style: square;
+    
+}
+
+.article-content-ul {
+    box-sizing: border-box; 
+    padding: 0%;
+    
+}
+
+.article-content-a {
+    color: #0060B6;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    
+}
+
+.article-content-services {
+    padding: 15px 0px 5px;
+}
+
+.article-content-services-p {
+    display: flex;
+    line-height: 30x;
+    padding: 10px 55px 10px;
+
+}
+
+.article-content-services-h1 {
+    text-align: left;
+    font-size: large;
+    font-size: x-large;
 }
