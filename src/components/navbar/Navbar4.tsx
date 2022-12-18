@@ -60,9 +60,9 @@ function Navbar4() {
             <li>
               <Link to="/masjid-construction">Masjid Construction</Link>
             </li>
-            <Link to="/donate">
-              <button className="btn">Donate</button>
-            </Link>
+              <a target="_blank" href='https://www.paypal.com/donate/?hosted_button_id=LZGPUFLUNZC8E'>
+                <button className="btn">Donate via PayPal</button>
+              </a>
           </ul>
         </nav>
         <div className="header__content__toggle">
