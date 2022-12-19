@@ -1,12 +1,11 @@
 import React from 'react'
-import "../sections/QuranProgram.css"
+
+import QuranProgramSection from '../sections/quranprogramcontent/QuranProgramSection'
 
 function QuranProgram() {
   return (
     <>
-        <div className='quran-page'>
-            <h1>Quran Program page</h1>
-        </div>
+      <QuranProgramSection />
     </>
     
   )

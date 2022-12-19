@@ -1,0 +1,56 @@
+
+
+<div className='quran-top-content-wrapper'> 
+            {/* style={{backgroundImage: 'url(/images/img-infographic-1.png)'}} */}
+                <div className='quran-top-content-container'>
+                    <div className='quran-top-img-title'>
+                        <h1>MCM Phoenix Quran Program</h1>
+                    </div>
+                </div>
+            </div>
+            <div className='quran-middle-content-wrapper'>
+                <div className='quran-middle-content-container'>
+
+                </div>
+            </div>
+
+
+/* top content */
+.quran-page {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.quran-top-content-wrapper {
+    padding: 0%;     
+}
+
+.quran-top-content-container {
+    background: url('./img-infographic-1.png') no-repeat center center;
+    background-size: contain;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+}
+
+
+.quran-top-img-title > h1 {
+    padding: 0%;
+}
+
+
+
+/* middle content */
+.quran-middle-content-wrapper {
+    padding: 0%;
+}
+
+.quran-middle-content-container {
+    display: flex;
+}

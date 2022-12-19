@@ -13,6 +13,7 @@ import Navbar from './components/navbar/Navbar';
 import Navbar2 from './components/navbar/Navbar2';
 import Navbar3 from './components/navbar/Navbar3'; 
 import Navbar4 from './components/navbar/Navbar4.tsx';
+import Dev from './components/pages/Dev';
 
 
 
@@ -29,6 +30,7 @@ const App = () => {
       <Route path='/donate' element={<Donate/>}  />
       <Route path='/masjid-construction' element={<MasjidConstruction/>}  />
       <Route path='/quran-program' element={<QuranProgram/>}  />
+      <Route path='/dev' element={<Dev/>}  />
     </Routes>
     <Footer />
     </Router>
